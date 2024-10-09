@@ -1,0 +1,23 @@
+print("The game has loaded.") 
+print("choose which one, gymnastics or soccer")
+roomSelection = input("Enter gymnastics or soccer") 
+if roomSelection == "gymnastics":
+    print("Entered gymnastics") 
+    roomSelection = input("basketball or volleyball") 
+    if roomSelection == "basketball":
+        print("Entered basketball") 
+    elif roomSelection == "volleyball":
+        print("Entered volleyball") 
+    else: 
+        print("Invalid entry. Program is closing.") 
+elif roomSelection == "soccer":
+    print("Entered soccer") 
+    roomSelection = input("Enter jiu-jitsu or golf") 
+    if roomSelection == "jiu-jitsu":
+        print("Entered jiu-jitsu") 
+    elif roomSelection == "golf":
+        print("Entered golf") 
+    else: 
+        print("Invalid entry. Program is closing.") 
+else: 
+    print("Invalid entry. Program is closing.") 
